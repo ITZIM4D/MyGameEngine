@@ -136,6 +136,30 @@ myGameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/build
 .PHONY : myGameEngine/fast
 
+external/glad/src/glad.o: external/glad/src/glad.c.o
+.PHONY : external/glad/src/glad.o
+
+# target to build an object file
+external/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/external/glad/src/glad.c.o
+.PHONY : external/glad/src/glad.c.o
+
+external/glad/src/glad.i: external/glad/src/glad.c.i
+.PHONY : external/glad/src/glad.i
+
+# target to preprocess a source file
+external/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/external/glad/src/glad.c.i
+.PHONY : external/glad/src/glad.c.i
+
+external/glad/src/glad.s: external/glad/src/glad.c.s
+.PHONY : external/glad/src/glad.s
+
+# target to generate assembly for a file
+external/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/external/glad/src/glad.c.s
+.PHONY : external/glad/src/glad.c.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -170,6 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... myGameEngine"
+	@echo "... external/glad/src/glad.o"
+	@echo "... external/glad/src/glad.i"
+	@echo "... external/glad/src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
