@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/myGameEngine.dir/external/glad/src/glad.c.o"
   "CMakeFiles/myGameEngine.dir/external/glad/src/glad.c.o.d"
+  "CMakeFiles/myGameEngine.dir/src/Window.cpp.o"
+  "CMakeFiles/myGameEngine.dir/src/Window.cpp.o.d"
   "CMakeFiles/myGameEngine.dir/src/main.cpp.o"
   "CMakeFiles/myGameEngine.dir/src/main.cpp.o.d"
   "myGameEngine"
