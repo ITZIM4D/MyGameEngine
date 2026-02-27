@@ -160,6 +160,30 @@ external/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
+src/ImageLoader.o: src/ImageLoader.cpp.o
+.PHONY : src/ImageLoader.o
+
+# target to build an object file
+src/ImageLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/src/ImageLoader.cpp.o
+.PHONY : src/ImageLoader.cpp.o
+
+src/ImageLoader.i: src/ImageLoader.cpp.i
+.PHONY : src/ImageLoader.i
+
+# target to preprocess a source file
+src/ImageLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/src/ImageLoader.cpp.i
+.PHONY : src/ImageLoader.cpp.i
+
+src/ImageLoader.s: src/ImageLoader.cpp.s
+.PHONY : src/ImageLoader.s
+
+# target to generate assembly for a file
+src/ImageLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myGameEngine.dir/build.make CMakeFiles/myGameEngine.dir/src/ImageLoader.cpp.s
+.PHONY : src/ImageLoader.cpp.s
+
 src/Window.o: src/Window.cpp.o
 .PHONY : src/Window.o
 
@@ -221,6 +245,9 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
+	@echo "... src/ImageLoader.o"
+	@echo "... src/ImageLoader.i"
+	@echo "... src/ImageLoader.s"
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"
