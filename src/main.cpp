@@ -167,7 +167,7 @@ int main() {
 
         // Bind VAO and draw
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 36);
+        //glDrawArrays(GL_TRIANGLES, 0, 36);
 
         // Check and call events and swap buffers
         glfwSwapBuffers(window);
