@@ -788,7 +788,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: \
   /Users/jared/Desktop/MyGameEngine/external/glm/detail/setup.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/jared/Desktop/MyGameEngine/external/glm/detail/../simd/platform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
@@ -1093,6 +1092,23 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: \
   /Users/jared/Desktop/MyGameEngine/external/glm/gtc/../mat4x3.hpp \
   /Users/jared/Desktop/MyGameEngine/external/glm/gtc/type_ptr.inl \
   /Users/jared/Desktop/MyGameEngine/include/stb_image.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Importer.hpp \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/types.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/defs.h \
+  /usr/local/include/assimp/config.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector2.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector3.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/color4.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix3x3.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix4x4.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/quaternion.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector2.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector3.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/color4.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix3x3.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix4x4.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/MathFunctions.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/quaternion.inl \
   /Users/jared/Desktop/MyGameEngine/include/Window.h \
   /Users/jared/Desktop/MyGameEngine/include/Shader.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
@@ -1100,4 +1116,20 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/jared/Desktop/MyGameEngine/include/Camera.h
+  /Users/jared/Desktop/MyGameEngine/include/Camera.h \
+  /Users/jared/Desktop/MyGameEngine/include/Model.h \
+  /Users/jared/Desktop/MyGameEngine/include/Mesh.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/scene.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/texture.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/./Compiler/pushpack1.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/./Compiler/poppack1.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/mesh.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/aabb.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/light.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/camera.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/material.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/material.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/anim.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/metadata.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/postprocess.h

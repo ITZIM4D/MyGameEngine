@@ -6,13 +6,17 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <stb_image.h>
+#include <assimp/Importer.hpp>
 
 #include <Window.h>
 #include <Shader.h>
 #include <Camera.h>
+#include <Model.h>
 
 const int SCREEN_WIDTH  = 800;
 const int SCREEN_HEIGHT = 600;
+
+//TODO: do lighting and materials section
 
 void processInput(GLFWwindow* window);
 void mouse_callback(GLFWwindow* window, double xposIn, double yposIn);
@@ -40,6 +44,8 @@ int main() {
     
     // Compile shaders
     Shader shader("../src/shaders/shader.vs", "../src/shaders/shader.fs");
+
+    stbi_set_flip_vertically_on_load(true);
 
     // Enable depth testing
     glEnable(GL_DEPTH_TEST);
@@ -122,6 +128,8 @@ int main() {
     }
     stbi_image_free(data);
 
+    Model ourModel((char*) "../assets/models/backpack/backpack.obj");
+
     while(!glfwWindowShouldClose(window)) {
         // Per frame time logic
         float currentFrame = static_cast<float>(glfwGetTime());
@@ -140,6 +148,8 @@ int main() {
 
         // Model matrix to transform to world space
         glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
+        model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 
         // View matrix to move camera
         glm::mat4 view = camera.GetViewMatrix();
@@ -152,6 +162,8 @@ int main() {
         shader.setMat4("model", model);
         shader.setMat4("view", view);
         shader.setMat4("projection", projection);
+
+        ourModel.Draw(shader);
 
         // Bind VAO and draw
         glBindVertexArray(VAO);

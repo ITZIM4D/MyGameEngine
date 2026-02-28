@@ -5,17 +5,17 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/jared/Desktop/MyGameEngine/include -I/Users/jared/Desktop/MyGameEngine/external -I/Users/jared/Desktop/MyGameEngine/external/glfw/include -I/Users/jared/Desktop/MyGameEngine/external/glad/include
+C_INCLUDES = -I/Users/jared/Desktop/MyGameEngine/include -I/Users/jared/Desktop/MyGameEngine/external -I/Users/jared/Desktop/MyGameEngine/external/glfw/include -I/Users/jared/Desktop/MyGameEngine/external/glad/include -I/Users/jared/Desktop/MyGameEngine/external/assimp/include
 
-C_FLAGSarm64 =  -arch arm64
+C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 
-C_FLAGS =  -arch arm64
+C_FLAGS = -O3 -DNDEBUG -arch arm64
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jared/Desktop/MyGameEngine/include -I/Users/jared/Desktop/MyGameEngine/external -I/Users/jared/Desktop/MyGameEngine/external/glfw/include -I/Users/jared/Desktop/MyGameEngine/external/glad/include
+CXX_INCLUDES = -I/Users/jared/Desktop/MyGameEngine/include -I/Users/jared/Desktop/MyGameEngine/external -I/Users/jared/Desktop/MyGameEngine/external/glfw/include -I/Users/jared/Desktop/MyGameEngine/external/glad/include -I/Users/jared/Desktop/MyGameEngine/external/assimp/include
 
-CXX_FLAGSarm64 =  -arch arm64
+CXX_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 
-CXX_FLAGS =  -arch arm64
+CXX_FLAGS = -O3 -DNDEBUG -arch arm64
 

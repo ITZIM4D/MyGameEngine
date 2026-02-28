@@ -13,14 +13,18 @@ include_directories(
     external
     external/glfw/include
     external/glad/include
+    external/assimp/include
 )
 
 target_link_directories(
-    myGameEngine PRIVATE external/glfw/lib-universal
+    myGameEngine PRIVATE 
+    external/glfw/lib-universal
+    external/assimp/build/bin
 )
 
-target_link_libraries(
-    myGameEngine PRIVATE glfw3
+target_link_libraries(myGameEngine PRIVATE
+    glfw3
+    assimp
     "-framework Cocoa"
     "-framework IOKit"
     "-framework CoreFoundation"

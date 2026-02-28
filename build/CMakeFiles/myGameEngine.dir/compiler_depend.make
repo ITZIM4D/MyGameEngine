@@ -105,7 +105,6 @@ CMakeFiles/myGameEngine.dir/src/ImageLoader.cpp.o: /Users/jared/Desktop/MyGameEn
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_abort.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_printf.h \
@@ -1135,7 +1134,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_abort.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h \
@@ -1762,6 +1760,7 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
@@ -1920,6 +1919,35 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Compiler/poppack1.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Compiler/pushpack1.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Importer.hpp \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/MathFunctions.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/aabb.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/anim.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/camera.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/color4.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/color4.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/defs.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/light.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/material.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/material.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix3x3.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix3x3.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix4x4.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix4x4.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/mesh.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/metadata.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/postprocess.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/quaternion.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/quaternion.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/scene.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/texture.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/types.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector2.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector2.inl \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector3.h \
+  /Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector3.inl \
   /Users/jared/Desktop/MyGameEngine/external/glad/include/KHR/khrplatform.h \
   /Users/jared/Desktop/MyGameEngine/external/glad/include/glad/glad.h \
   /Users/jared/Desktop/MyGameEngine/external/glfw/include/GLFW/glfw3.h \
@@ -2225,12 +2253,17 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
   /Users/jared/Desktop/MyGameEngine/external/glm/vec4.hpp \
   /Users/jared/Desktop/MyGameEngine/external/glm/vector_relational.hpp \
   /Users/jared/Desktop/MyGameEngine/include/Camera.h \
+  /Users/jared/Desktop/MyGameEngine/include/Mesh.h \
+  /Users/jared/Desktop/MyGameEngine/include/Model.h \
   /Users/jared/Desktop/MyGameEngine/include/Shader.h \
   /Users/jared/Desktop/MyGameEngine/include/Window.h \
-  /Users/jared/Desktop/MyGameEngine/include/stb_image.h
+  /Users/jared/Desktop/MyGameEngine/include/stb_image.h \
+  /usr/local/include/assimp/config.h
 
 
 /Users/jared/Desktop/MyGameEngine/include/Shader.h:
+
+/Users/jared/Desktop/MyGameEngine/include/Mesh.h:
 
 /Users/jared/Desktop/MyGameEngine/include/Camera.h:
 
@@ -2298,8 +2331,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/vector_float2_precision.hpp:
 
-/Users/jared/Desktop/MyGameEngine/external/glm/ext/vector_double2_precision.hpp:
-
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/vector_double2.hpp:
 
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/vector_bool3_precision.hpp:
@@ -2350,8 +2381,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/matrix_float4x3_precision.hpp:
 
-/Users/jared/Desktop/MyGameEngine/external/glm/ext/matrix_float4x3.hpp:
-
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/matrix_float3x4.hpp:
 
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/matrix_float3x2.hpp:
@@ -2390,8 +2419,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Users/jared/Desktop/MyGameEngine/external/glm/detail/type_mat4x4.hpp:
 
-/Users/jared/Desktop/MyGameEngine/external/glm/detail/type_mat4x3.inl:
-
 /Users/jared/Desktop/MyGameEngine/external/glm/detail/type_mat4x3.hpp:
 
 /Users/jared/Desktop/MyGameEngine/external/glm/detail/type_mat4x2.inl:
@@ -2416,8 +2443,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Users/jared/Desktop/MyGameEngine/external/glm/detail/type_vec1.inl:
 
-/Users/jared/Desktop/MyGameEngine/external/glm/detail/func_geometric.inl:
-
 /Users/jared/Desktop/MyGameEngine/external/glm/detail/compute_common.hpp:
 
 /Users/jared/Desktop/MyGameEngine/external/glm/exponential.hpp:
@@ -2436,7 +2461,55 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Users/jared/Desktop/MyGameEngine/external/glm/common.hpp:
 
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector3.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/glm/detail/type_mat4x3.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector2.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector2.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/types.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/texture.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/scene.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/quaternion.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/postprocess.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/metadata.h:
+
+/Users/jared/Desktop/MyGameEngine/external/glm/ext/vector_double2_precision.hpp:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/mesh.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix4x4.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix4x4.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix3x3.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/material.h:
+
+/Users/jared/Desktop/MyGameEngine/external/glm/ext/matrix_float4x3.hpp:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/light.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/matrix3x3.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/defs.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/color4.h:
+
+/Users/jared/Desktop/MyGameEngine/external/glm/detail/func_geometric.inl:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/camera.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/float.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set:
 
 /Users/jared/Desktop/MyGameEngine/external/glm/ext/quaternion_transform.hpp:
 
@@ -2497,6 +2570,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/quaternion.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
 
@@ -2658,6 +2733,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/element_count.h:
 
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/MathFunctions.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/errno.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
@@ -2737,6 +2814,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
+
+/Users/jared/Desktop/MyGameEngine/include/Model.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
@@ -3004,6 +3083,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h:
 
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/anim.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/tuple.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/subrange.h:
@@ -3202,6 +3283,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/aabb.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
@@ -3232,11 +3315,15 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/material.inl:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/vector3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h:
 
@@ -3301,6 +3388,10 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support/c11.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
@@ -3383,6 +3474,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Importer.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
@@ -3608,6 +3701,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
@@ -3808,6 +3903,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h:
 
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/color4.inl:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
@@ -3832,6 +3929,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
+/usr/local/include/assimp/config.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
@@ -3849,8 +3948,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h:
 
 /Users/jared/Desktop/MyGameEngine/include/stb_image.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
 
@@ -3896,12 +3993,6 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support/c11.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
@@ -3909,6 +4000,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Compiler/poppack1.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h:
 
@@ -3991,6 +4084,8 @@ CMakeFiles/myGameEngine.dir/src/main.cpp.o: /Users/jared/Desktop/MyGameEngine/sr
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h:
+
+/Users/jared/Desktop/MyGameEngine/external/assimp/include/assimp/Compiler/pushpack1.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/ordering.h:
 
